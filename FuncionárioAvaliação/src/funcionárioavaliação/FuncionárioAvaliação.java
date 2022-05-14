@@ -56,7 +56,6 @@ public class FuncionárioAvaliação {
             infoFunc = new InfoFuncionario(matricula, funçao, ativo, nome, sobrenome);
 
         }
-
         String opUser = "";
 
         while (!opUser.equals(operaçoes[3])) {

@@ -15,6 +15,7 @@ public class InfoFuncionario extends Pessoa {
         this.matricula = matricula;
         this.funçao = funçao;
         this.ativo = ativo;
+        defineSalarioBase();
     }
 
     public InfoFuncionario(String matricula, String funçao, boolean ativo, String nome, String sobrenome) {
@@ -22,6 +23,7 @@ public class InfoFuncionario extends Pessoa {
         this.matricula = matricula;
         this.funçao = funçao;
         this.ativo = ativo;
+        defineSalarioBase();
     }
 
     public String getMatricula() {
